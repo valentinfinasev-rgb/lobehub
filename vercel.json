@@ -1,6 +1,6 @@
 {
   "buildCommand": "bunx --bun vite build && bun run build:spa:copy && bun run build:next && bun run db:migrate",
-  "installCommand": "npx pnpm@10.26.2 install --resolution-mode=lowest-direct",
+  "installCommand": "npx pnpm@10.26.2 install --config.resolution-mode=lowest-direct",
   "rewrites": [
     {
       "source": "/_dangerous_local_dev_proxy",
